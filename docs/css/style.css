@@ -1,3 +1,54 @@
 *{
-	background-color: blue;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	background-color: #00cfff;
+}
+
+#header{
+	margin-top: 3em;
+	float: left;
+	width: 100%;
+	padding-top: 2em;
+	height: 12.5vh;
+	background-image: url("images/title.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#moñeco{
+	float: left;
+	padding: 2em;
+	margin-top: 2em;
+	width: 90%;
+	height: 60vh;
+}
+
+#descripcion{
+	float: left;
+	padding: 2em;
+	margin-top: 2em;
+	width: 100%;
+}
+
+li{
+	list-style-position: inside;
+}
+
+@media (min-width: 1024px){  /*tablet y pc*/
+
+	#descripcion{
+		width: 50%;
+		float: left;
+	}
+
+	#moñeco{
+		width: 30%;
+		float: right;
+
+	}
 }
