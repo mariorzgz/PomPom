@@ -1,1 +1,2 @@
-Index.md in docs
+## POMPOM
+Esta es la web de pom pom
