@@ -1,6 +1,6 @@
 # POM☆POM
 
-POM☆POM es un juego para móviles android creado por:
+POM☆POM es un juego para móviles y dispositivos android creado por:
 
 * [Susana](https://www.instagram.com/su.marlo/). Al mando del diseño de la App y personajes.
 * [Mario](https://www.instagram.com/mario.rzgz/). Con todo lo referente a programación y ayudando a diseñar.
