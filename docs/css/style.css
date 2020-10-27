@@ -39,7 +39,6 @@ body{
 	float: left;
 	padding: 2em;
 	margin-top: calc(12.5vh + 6em);
-	width: 90%;
 	height: 60vh;
 }
 
@@ -51,6 +50,56 @@ body{
 	margin-top: 0em;
 
 
+}
+
+#autores{
+	display: none;
+}
+
+#su_img, #mario_img, #mario_nom, #su_nom{
+		position: absolute;
+		background-size: contain;
+		width: 50%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		float: left;
+}
+
+#su_nom{
+	background-image: url("images/su_nom.png");
+	animation: rotation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+#mario_nom{
+	background-image: url("images/mario_nom.png");
+	left: 50%;
+	animation: rotation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+#su_img{
+	background-image: url("images/su_img.png");
+	z-index: 10;
+}
+
+#mario_img{
+	background-image: url("images/mario_img.png");
+	left: 50%;
+	z-index: 10;
+}
+
+@keyframes rotation {
+	0%   		{transform:rotate(0deg);}
+  	50%  		{transform:rotate(180deg);}
+  	100% 		{transform:rotate(360deg);}
 }
 
 #descripcion{
@@ -78,4 +127,13 @@ li{
 		float: right;
 
 	}
+
+	#autores{
+		display: block;
+		margin-left: 2em;
+		margin-top: 2em;
+		width: 20vw;
+		position: absolute;
+		height: 15vh;
+}
 }
