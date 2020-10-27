@@ -119,13 +119,7 @@ li{
 		height: 60vh;
 		padding: 2em 2em 2em 4em;
 	}
-
-	#moñeco{
-		width: 30%;
-		float: right;
-
-	}
-
+	
 	#autores{
 		display: block;
 		margin-left: 2em;
@@ -134,4 +128,11 @@ li{
 		position: absolute;
 		height: 15vh;
 	}
+
+	#moñeco{
+		width: 30%;
+		float: right;
+	}
+
+
 }
