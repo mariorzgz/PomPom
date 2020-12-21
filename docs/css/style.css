@@ -103,7 +103,6 @@ a{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	margin: 0.5em;
 	background-image: url("images/github.png");
 	width: 100%;
 	height: 100%;
@@ -113,7 +112,6 @@ a{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	margin: 0.5em;
 	background-image: url("images/download_apk.png");
 	width: 100%;
 	height: 100%;
@@ -123,7 +121,6 @@ a{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	margin: 0.5em;
 	background-image: url("images/download_play.png");
 	width: 100%;
 	height: 100%;
