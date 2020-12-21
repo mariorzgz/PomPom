@@ -5,7 +5,7 @@ POM☆POM es un juego para móviles y dispositivos android creado por:
 
 Con este juego puedes crear diferentes personajes intercambiando las partes de su cuerpo y combinándolas.
 
-Utiliza swipe en las cada parte del cuerpo para cambiarla.
+Utiliza swipe en cada parte del cuerpo para cambiarla.
 
 Utiliza el menú inferior para editar el color del PomPom, el color del fondo y el estampado.
 
